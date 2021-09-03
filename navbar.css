@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .container {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  header {
+    width: 100%;
+    background-color: gray;
+    height: 60px;
+    line-height: 60px;
+    position: sticky;
+    top: 0;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  header ul li {
+    display: inline-block;
+    min-width: 60px;
+    text-align: center;
+   
+  }
+
+  header ul li a {
+    display: block;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  header ul li a:hover {
+    background-color: green;
+  }
+
+  .active {
+    background-color: green;
+  }
+
+  main {
+    padding: 30px;
+  }
+
+  main p {
+    line-height: 1.5;
+    text-align: justify;
+  }
